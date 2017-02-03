@@ -41,3 +41,10 @@ Please run these command<br>
 ``Grants for widget_cms@localhost  ``<br>
 ``GRANT USAGE ON *.* TO 'widget'@'localhost' IDENTIFIED BY PASSWORD '*6C8989366EAF75BB670AD8EA7A7FC1176A95CEF4'``<br>
 ``GRANT ALL PRIVILEGES ON `foo`.* TO 'admin'@'localhost'``<br>
+
+
+## DROP USER
+``DROP USER 'widget_cms'@'localhost'``
+
+## DROP DATABASE
+``DROP DATABASE IF EXISTS widget_db``
