@@ -25,3 +25,19 @@ Please run these command<br>
 
 ## Show Database
 `` SHOW DATABASES;``
+
+
+## Create Database
+``CREATE DATABASE IF NOT EXISTS widget_db``
+
+## GRANT Privilegs
+``GRANT ALL ON widget_db.* TO 'widget_cms'@'localhost'``<br>
+
+## FLUSH
+``FLUSH PRIVILEGES``<br>
+
+## SHOW GRANTS FOR USER
+``SHOW GRANTS FOR 'widget_cms'@'localhost'``<br>
+``Grants for widget_cms@localhost  ``<br>
+``GRANT USAGE ON *.* TO 'widget'@'localhost' IDENTIFIED BY PASSWORD '*6C8989366EAF75BB670AD8EA7A7FC1176A95CEF4'``<br>
+``GRANT ALL PRIVILEGES ON `foo`.* TO 'admin'@'localhost'``<br>
