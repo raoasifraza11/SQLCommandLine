@@ -48,3 +48,16 @@ Please run these command<br>
 
 ## DROP DATABASE
 ``DROP DATABASE IF EXISTS widget_db``
+
+## USE DATABASE
+``Use widegt_db;``
+
+## Create Table
+``CREATE TABLE admin (
+      id INT(11) NOT NULL AUTO_INCREMENT,
+      username varchar(50) NOT NULL,
+      hash_password varchar(60) NOT NULL,
+      primary key (id)
+      );``
+      
+      
