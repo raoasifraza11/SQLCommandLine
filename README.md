@@ -16,3 +16,12 @@ Please run these command<br>
 ``sudo pkill mysqld``<br>
 ``service mysql restart``<br>
 ``mysql -u root -p``<br>
+
+## Show All USERS
+``SELECT * FROM mysql.user;``<br>
+
+## Create USER
+``CREATE USER 'widget_cms'@'localhost' IDENTIFIED BY 'mypass'``<br>
+
+## Show Database
+`` SHOW DATABASES;``
